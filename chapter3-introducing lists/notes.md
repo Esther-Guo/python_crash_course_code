@@ -8,3 +8,4 @@ remove() method.
 The sort() method changes the order of the list permanently. You can also sort this list in reverse alphabetical order by passing the **reverse=True** argument to the sort() method.  
 The sorted() function lets you display your list in a particular order but doesn’t affect the actual order of the list.  
 reverse() simply reverses the order of the list.  
+Whenever you want to access the last item in a list(not empty), you use the index -1.  
