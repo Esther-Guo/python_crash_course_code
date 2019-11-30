@@ -5,5 +5,6 @@ If you know the position of the item you want to remove from a list(and never us
 The pop() method removes the last item in a list, but it lets you work with that item after removing it. pop(index) allows you to remove an element in any particular position.  
 If you only know the value of the item you want to remove, you can use the
 remove() method.  
-
-
+The sort() method changes the order of the list permanently. You can also sort this list in reverse alphabetical order by passing the **reverse=True** argument to the sort() method.  
+The sorted() function lets you display your list in a particular order but doesn’t affect the actual order of the list.  
+reverse() simply reverses the order of the list.  
