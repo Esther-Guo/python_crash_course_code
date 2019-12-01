@@ -5,3 +5,8 @@ min(),max(),sum() for numerical list.
 copy lists: A = B (actually the same list), A = B[:] (two seperate lists)  
 An immutable(unchanged) list is called a tuple.  
 To change a tuple, assign a new value to the variable.  
+Style guideline:
+[ ]use four spaces per indentation level
+[ ]each line should be less than 79 characters
+[ ]limit all of your comments to 72 characters per line
+[ ]To group parts of your program visually, use blank lines
