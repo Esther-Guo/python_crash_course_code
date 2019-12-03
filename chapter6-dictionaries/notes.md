@@ -15,3 +15,9 @@ For dictionaries, specifically, you can use the get() method to set a default va
 point_value = alien_0.get('points', 'No point value assigned.')
 print(point_value)
 ```
+loop through items in dictionary: `for key, value in dict.items():`  
+loop through keys in dictionary: `for key in dict.keys():` or `for key in dict:`  
+loop through values in dictionary: `for value in dict.values():`  
+Starting in Python 3.7, looping through a dictionary returns the items in the same order they were inserted.  
+If want to loop the keys in some order, use the sorted() function to get a copy of the keys in order. `for k in sorted(dict.keys()):`
+A set is a collection in which each item must be unique. Used for getting a list of unique elements. You can build a set directly using braces and separating the elements with commas. Unlike lists and dictionaries, sets do not retain items in any specific order. `languages = {'python', 'ruby', 'python', 'c'} `
