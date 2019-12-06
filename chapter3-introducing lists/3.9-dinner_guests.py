@@ -1,4 +1,4 @@
-guest_list = ['Mike','Sonnam','Ham']
+guest_list = ['Mike', 'Sonnam', 'Ham']
 
 print(f'Can I invite you for dinner, {guest_list[0]}?')
 print(f'Can I invite you for dinner, {guest_list[1]}?')
