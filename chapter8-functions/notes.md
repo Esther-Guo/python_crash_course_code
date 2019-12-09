@@ -18,4 +18,20 @@ user_profile = build_profile('albert', 'einstein',
                             location='princeton',
                             field='physics')
 ```
-The parameter name **kwargs is used to collect non-specific keyword arguments.
+The parameter name **kwargs is used to collect non-specific keyword arguments.  
+To make the main program easier, You can store your functions in a separate file called a module and then importing that module into your main program.  
+A module is a file ending in .py that contains the code you want to import into your program.  
+import a entire module: import mudule_name  use: module_name.function_name()
+impirt specific functions from a module: from module_name import function_name  use: function_name()  
+from module_name import function_name as nickname  use: nickname()  
+If you specify a default value for a parameter, no spaces should be used on either side of the equal sign: def function_name(parameter_0, parameter_1='default value')  
+If a set of parameters causes a function’s definition to
+be longer than 79 characters, press enter after the opening parenthesis on the definition line. On the next line, press tab twice to separate the list of arguments from the body of the function, which only indented once.
+```
+def function_name(
+        parameter_0, parameter_1, parameter_2,
+        parameter_3, parameter_4, parameter_5):
+    function body...
+```
+Separate function definitions by two blank lines to make it easier to see where one function
+ends and the next one begins.  
