@@ -4,3 +4,4 @@ By convention, capitalized names refer to classes in Python. eg.Dog
 Write doctring for each class you define.  
 The \__init__() method is a special method that Python runs automatically whenever we create a new instance based on the class.  
 The self parameter is required in the method definition, and it must come first before the other parameters.  
+3 ways to modify attributes' values: change directly, through method, increment through method.
