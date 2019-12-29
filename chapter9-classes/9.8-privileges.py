@@ -21,7 +21,7 @@ class User:
         self.login_attempts = 0
 
 
-class Privileges():
+class Privileges:
     """set privilege instance"""
     def __init__(self):
         """initialize privileges"""

@@ -23,6 +23,7 @@ class IceCreamStand(Restaurant):
         self.flavor = []
 
     def show_flavor(self):
+        """Display all flavors"""
         for flavor in self.flavor:
             print(flavor)
 
