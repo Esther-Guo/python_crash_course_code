@@ -1,6 +1,7 @@
 """Store Privileges and Admin class"""
 from user_only import User
 
+
 class Privileges:
     """set privilege instance"""
     def __init__(self):
