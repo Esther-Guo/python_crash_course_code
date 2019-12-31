@@ -38,3 +38,5 @@ except FileNotFoundError:
 else:
     --snip--
 ```
+JSON(JavaScript Object Notation)  
+json.dump() function takes two arguments: a piece of data to store and a file object it can use to store the data.  
