@@ -40,3 +40,4 @@ else:
 ```
 JSON(JavaScript Object Notation)  
 json.dump() function takes two arguments: a piece of data to store and a file object it can use to store the data.  
+A passing test prints a dot, a test that results in an error prints an E, and a test that results in a failed assertion prints an F.  
